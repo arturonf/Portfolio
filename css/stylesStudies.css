@@ -1,0 +1,58 @@
+.LogoEstudios{
+  height: 120px;
+  width: 120px;
+}
+
+.logo{
+  margin-left: 10px;
+  margin-right: 20px;
+}
+.cont0{
+  width: 97vw;
+  display: flex;
+  flex-direction:column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cont1{
+  /*background-color: white;
+  border: 2px solid black;*/
+  padding: 5px;
+  width: 95vw;
+  align-items: center;
+  height: fit-content;
+  display: flex;
+  flex-direction:column;
+  /*justify-content: center;*/
+  /*flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../images/m1.jpg);
+  background-repeat: repeat;*/
+}
+
+.cont2{
+  background-color: #F5F5F5;
+  border: 2px solid #DCDCDC;
+  border-radius: 5px;
+  padding: 5px;
+  width: 90vw;
+  height: fit-content;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: left;
+  /*flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  left: 50%;
+  transform: translateX(-50%);
+  background-image: url(../images/m1.jpg);
+  background-repeat: repeat;*/
+}
