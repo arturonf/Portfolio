@@ -1,12 +1,19 @@
 .LogoEstudios{
-  height: 120px;
-  width: 120px;
+  height: 150px;
+  width: 150px;
 }
 
 .logo{
   margin-left: 10px;
   margin-right: 20px;
 }
+
+.text{
+  margin-right: 20px;
+  text-align: justify;
+  text-justify: inter-word;
+}
+
 .cont0{
   width: 97vw;
   display: flex;
