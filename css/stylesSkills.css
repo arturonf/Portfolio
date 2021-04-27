@@ -60,3 +60,9 @@
   justify-content: center;
   min-width: 500px;
 }
+
+.Flag{
+  height: 15px;
+  margin-left: 25px;
+  margin-right: 5px;
+}
