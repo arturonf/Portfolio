@@ -46,6 +46,25 @@
           </div>     
         </div>
       </div>
-    </footer>    
+    </footer>
+    <script type='text/javascript'>
+	function initEmbeddedMessaging() {
+		try {
+			embeddedservice_bootstrap.settings.language = 'en_US'; // For example, enter 'en' or 'en-US'
+
+			embeddedservice_bootstrap.init(
+				'00DHn000002UJ9g',
+				'Messaging_for_In_App_and_Web_Github',
+				'https://theksquaregroup-f2-dev-ed.develop.my.site.com/ESWMessagingforInAppa1704275570703',
+				{
+					scrt2URL: 'https://theksquaregroup-f2-dev-ed.develop.my.salesforce-scrt.com'
+				}
+			);
+		} catch (err) {
+			console.error('Error loading Embedded Messaging: ', err);
+		}
+	};
+</script>
+<script type='text/javascript' src='https://theksquaregroup-f2-dev-ed.develop.my.site.com/ESWMessagingforInAppa1704275570703/assets/js/bootstrap.min.js' onload='initEmbeddedMessaging()'></script>
   </body>
 </html>
